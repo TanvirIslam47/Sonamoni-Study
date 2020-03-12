@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SonamoniStudy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_bangla_sahitto">BanglaSahitto</string>
+    <string name="title_activity_sorbonno_bangla">SorbonnoBangla</string>
+    <string name="title_activity_color">Color</string>
+    <string name="title_activity_benjonbonno">Benjonbonno</string>
+    <string name="title_activity_capital_letter">CapitalLetter</string>
+    <string name="title_activity_small_letter">SmallLetter</string>
+    <string name="title_activity_flowers">Flowers</string>
+    <string name="title_activity_animals">Animals</string>
+    <string name="title_activity_goods">goods</string>
+    <string name="title_activity_fernichair">Fernichair</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_abouts">Abouts</string>
+    <string name="title_activity_animalssss">Animalssss</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

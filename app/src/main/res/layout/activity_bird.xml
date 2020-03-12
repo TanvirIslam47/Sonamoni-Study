@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#81ACDA"
+    tools:context="com.example.munna.sonamonistudy.Bird">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/doel"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="দোয়েল (Wagtail)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/kak"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="কাক (Crow)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/sparrow"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="চড়ুই (Sparrow)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/halik"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="শালিক (Shrikes)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/tiya"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="টিয়া (Parakeet)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/tota"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="তোতা (Parrot)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/ghughu"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ঘুঘু (Dove)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/babui"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="বাবুই (Weaver)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/tuntuni"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="টুনটুনি (Tailor Bird)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/holde"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="হলদে পাখি (Golden Oriole)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/finge"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ফিঙ্গে (Black Drongo)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/hutumpecha"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="হুতুমপেঁচা (Rock Eahgle Owl)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/lokkhipacha"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="লক্ষ্মীপেঁচা (Barn Owl)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/kankoka"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="কানাকোকা (Crow-Pheasant)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/khonjona"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="খঞ্জনা (White Wagtail)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/moutushi"
+                android:layout_weight="0.72" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="মৌটুসি (Sunbird)"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#9c27b0"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/sound"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81ACDA"
+    tools:context="com.example.munna.sonamonistudy.BanglaSahitto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:onClick="sorbonno"
+                android:layout_width="320dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="স্বরবর্ণ"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:onClick="bengonborno"
+                android:layout_width="320dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="ব্যঞ্জনবর্ণ"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:onClick="capital_letter"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="capital letter"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:onClick="small_letter"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="small letter"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:onClick="test"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Test"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

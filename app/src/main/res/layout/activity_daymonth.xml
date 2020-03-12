@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#507dae"
+    tools:context="com.example.munna.sonamonistudy.daymonth">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:onClick="din"
+                android:layout_width="320dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="দিন"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:onClick="mash"
+                android:layout_width="320dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="মাস"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:onClick="rritu"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="ঋতু"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/button1design"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

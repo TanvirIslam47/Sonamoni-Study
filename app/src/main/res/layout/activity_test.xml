@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="100"
+    android:layout_height="match_parent"
+    tools:context="com.example.munna.sonamonistudy.Test">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_weight="90"
+        android:layout_width="fill_parent"
+        android:layout_height="450dp">
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="460dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Clean"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:background="#00b0ff"
+            android:id="@+id/button"
+            android:layout_weight="10"
+            android:layout_alignParentBottom="true" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="অ"
+                android:layout_margin="5dp"
+                android:textSize="50dp"
+                android:background="#ffab91"
+                android:layout_weight="10"
+                android:layout_alignParentBottom="true" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="আ"
+                android:layout_margin="5dp"
+                android:textSize="50dp"
+                android:background="#ffab91"
+                android:layout_weight="10"
+                android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ই"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ঈ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="উ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ঊ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ঋ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="এ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ঐ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ও"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ঔ"
+                    android:layout_margin="5dp"
+                    android:textSize="50dp"
+                    android:background="#ffab91"
+                    android:layout_weight="10"
+                    android:layout_alignParentBottom="true" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

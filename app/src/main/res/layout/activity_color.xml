@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81ACDA"
+    android:orientation="vertical"
+    tools:context="com.example.munna.sonamonistudy.Color">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_margin="15dp"
+       android:weightSum="1">
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/black"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Black (কালো)"
+           android:textSize="40dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="#9c27b0"/>
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/blue1"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Blue (নীল)"
+           android:textSize="40dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="#9c27b0"/>
+
+
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/red1"
+           android:layout_weight="0.72" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Red(লাল)"
+           android:textSize="40dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="#9c27b0"/>
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/violet"
+           android:layout_weight="11.30" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Violet (বেগুনী)"
+           android:textSize="40dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="#9c27b0"/>
+       <ImageButton
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/indigo"
+           android:layout_weight="11.30" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Indigo (বেগনি নীলবর্ণ)"
+           android:textSize="40dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="#9c27b0"/>
+
+
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

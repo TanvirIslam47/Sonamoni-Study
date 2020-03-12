@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#224b96"
+    tools:context="com.example.munna.sonamonistudy.SorbonnoBangla">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:text="অ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:background="#0be281"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="আ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:background="#0be281"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        android:text="ই"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:background="#0be281"
+        android:onClick="playSound"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="37dp"
+        android:text="ঈ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:background="#0be281"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:text="উ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button7"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="ঊ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="37dp"
+
+        android:text="ঋ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="এ"
+
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="ঐ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="ও"
+        android:textSize="50dp"
+
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:onClick="playSound"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:text="ঔ"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#0be281"
+        android:padding="15dp"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:onClick="playSound"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

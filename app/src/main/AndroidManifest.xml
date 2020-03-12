@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.munna.sonamonistudy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BanglaSahitto"
+            android:label="বর্নমালা"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SorbonnoBangla"
+            android:label="স্বরবর্ন"
+            android:parentActivityName=".BanglaSahitto"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Color"
+            android:label="রং"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Benjonbonno"
+            android:label="ব্যঞ্জনবর্ন"
+            android:parentActivityName=".BanglaSahitto"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SmallLetter"
+            android:label="@string/title_activity_small_letter"
+            android:parentActivityName=".BanglaSahitto"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CapitalLetter"
+            android:label="@string/title_activity_capital_letter"
+            android:parentActivityName=".BanglaSahitto"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Flowers"
+            android:label="ফুল"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Animals"
+            android:label="@string/title_activity_animals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"
+            android:parentActivityName=".BanglaSahitto"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Abouts"
+            android:label="@string/title_activity_abouts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Animalssss"
+            android:label="পশুপাখি"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Beast"
+            android:label="পশু"
+            android:parentActivityName=".Animalssss"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Bird"
+            android:label="পাখি"
+            android:parentActivityName=".Animalssss"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Fruits"
+            android:label="ফল"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".daymonth"
+            android:label="দিন-মাস-ঋতু"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Day"
+            android:label="দিন"
+            android:parentActivityName=".daymonth"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Month"
+            android:label="মাস"
+            android:parentActivityName=".daymonth"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Season"
+            android:label="ঋতু"
+            android:parentActivityName=".daymonth"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>
